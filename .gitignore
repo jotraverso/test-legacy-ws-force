@@ -1,0 +1,5 @@
+config
+debug
+deploy
+*.log
+*.sublime*
