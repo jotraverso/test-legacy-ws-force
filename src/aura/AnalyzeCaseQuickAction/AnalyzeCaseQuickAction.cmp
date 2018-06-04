@@ -1,6 +1,6 @@
 <aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId" controller="AnalyzeCaseActionController">
     <aura:attribute name="recordId" type="Id" />
-    <lightning:button  variant="brand" label="Start Case Analysis" title="Start Case Analysis" onclick="{!c.handleStartAnalysis}"  />
+    <lightning:button variant="brand" label="Start Case Analysis" title="Start Case Analysis" onclick="{!c.handleStartAnalysis}"  />
     <div id="resultArea">
     </div>
 </aura:component>
